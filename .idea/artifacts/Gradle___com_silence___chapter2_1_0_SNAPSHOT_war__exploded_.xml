@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.silence : chapter2-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/chapter2-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/chapter2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="chapter2_main/web/Web Gradle : chapter2-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chapter2_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" />
+          <element id="file-copy" path="D:/gradle-4.3.1/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.4.RELEASE/6b5ac0db11d81d6319ebd0bb253b2f01713df3ab/spring-jdbc-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="D:/gradle-4.3.1/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.4.RELEASE/7afc193c5d2b812ee6d2ccaf6fcc81fb83bfb4a7/spring-tx-5.0.4.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
